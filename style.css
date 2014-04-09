@@ -1,0 +1,10 @@
+.site-header {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.site-content div {
+  margin: 50px 200px;
+  padding: 30px;
+  text-align: center;
+}
