@@ -2,19 +2,36 @@
 layout: default
 ---
 
+{% for link in site.data.links %}
 <div class="bg-info">
-  <h2>Section 1</h2>
-  <p>This is a section that will teach you to be wild cute.</p>
+  <a href="{{ link.href }}">
+    <h2>{{ link.title }}</h2>
+    <p>{{ link.description }}</p>
+  </a>
+</div>
+{% endfor %}
+
+<div class="bg-info">
+  <a href="#">
+    <h2>Section 1</h2>
+    <p>This is a section that will teach you to be wild cute.</p>
+  </a>
 </div>
 <div class="bg-info">
-  <h2>Section 2</h2>
-  <p>This is a section that will teach you some time saving tips.</p>
+  <a href="">
+    <h2>Section 2</h2>
+    <p>This is a section that will teach you some time saving tips.</p>
+  </a>
 </div>
 <div class="bg-info">
-  <h2>Section 3</h2>
-  <p>This is a section that will teach you about playing Fruit Ninja on a big screen.</p>
+  <a href="#">
+    <h2>Section 3</h2>
+    <p>This is a section that will teach you about playing Fruit Ninja on a big screen.</p>
+  </a>
 </div>
 <div class="bg-info">
-  <h2>Section 4</h2>
-  <p>This is a section that will teach you about throwing a good Packer Party.</p>
+  <a href="#">
+    <h2>Section 4</h2>
+    <p>This is a section that will teach you about throwing a good Packer Party.</p>
+  </a>
 </div>
