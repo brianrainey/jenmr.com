@@ -8,10 +8,15 @@
   text-align: center;
 }
 
+.site-content ol {
+  margin: 25px 200px;
+}
+
 .bg-info a {
   display:block;
   width: 100%;
   height: 100%;
+  color: inherit;
 }
 
 .bg-info h2 {
